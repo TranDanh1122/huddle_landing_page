@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header
+    class=" bg-center bg-cover bg-very_pale_cyan bg-[url('images/bg-hero-desktop.svg')] mb:bg-[url('images/bg-hero-mobile.svg')]">
+    <div class="h-full container max-w-[1440px] w-[90%] mx-auto py-24">
+      <nav class="w-full flex flex-nowrap justify-between items-center ">
+        <img src="./images/logo.svg" alt="logo" class="w-[12.5rem] h-8 object-cover mb:w-[6.5rem] mb:h-4  ">
+        <a href="#"
+          class="bg-white font-opsans font-bold text-[0.875rem] mb:text-[0.75rem] px-16 mb:px-6  py-4 mb:py-2 shadow-md shadow-grayish_blue rounded-2xl text-very_dark_cyan cursor-pointer hover:text-opacity-50">
+          Try
+          It Free</a>
+      </nav>
+      <div class="flex flex-nowrap gap-[3.5rem] items-center justify-between mt-[4.5rem] mb:flex-col">
+        <div class="flex flex-nowrap gap-8 justify-between flex-col mb:w-full">
+          <h1 class="font-popin leading-[3.75rem] text-[2.5rem] text-very_dark_cyan font-semibold mb:text-center">Build
+            The Community
+            Your Fans Will
+            Love</h1>
+          <p class="font-opsans text-very_dark_cyan text-[1.125rem] leading-[1.5rem] mb:text-center">Huddle re-imagines
+            the way we
+            build
+            communities. You have a voice, but so does your audience. Create
+            connections with your users as you engage in genuine discussion. </p>
+          <a href="#"
+            class="font-opsans text-[0.875rem] text-white py-5 px-16 bg-pink hover:bg-opacity-50 block w-fit rounded-[1.75rem] mb:mx-auto">Get
+            Started For Free</a>
+        </div>
+        <img loading="lazy" src="images/illustration-mockups.svg" alt="illustration-mockups"
+          class="w-1/2 object-cover mb:w-full">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container max-w-[1440px] w-[90%] mx-auto">
+      <div
+        class="flex flex-nowrap pr-8 pl-[7.5rem] py-14 mb:gap-6 mb:py-8 mb:px-6 items-center justify-between shadow-gray-300 shadow-md mb:flex-col-reverse">
+        <div class="w-full max-w-[31rem] mb:mt-6">
+          <h2
+            class="font-popin font-semibold text-[1.75rem] mb:text-[1.25rem] leading-[2.5rem] mb:leading-8 text-very_dark_cyan mb:text-center mb:mb-4">
+            Grow Together</h2>
+          <p
+            class="font-opsans text-[1.125rem] mb:text-[0.875rem] leading-7 mb:leading-5 text-grayish_blue mb:text-center">
+            Generate
+            meaningful discussions with your audience and build a strong, loyal community.
+            Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <img src="/images/illustration-grow-together.svg" alt="illustration-grow-together"
+          class="w-full max-w-[25rem] object-cover mb:w-full">
+      </div>
+      <div
+        class="flex flex-nowrap flex-row-reverse pr-8 pl-[7.5rem] py-14 mb:gap-6 mb:py-8 mb:px-6 items-center justify-between shadow-gray-300 shadow-md mb:flex-col-reverse my-10">
+        <div class="w-full max-w-[31rem] mb:mt-6">
+          <h2
+            class="font-popin font-semibold text-[1.75rem] mb:text-[1.25rem] leading-[2.5rem] mb:leading-8 text-very_dark_cyan mb:text-center mb:mb-4">
+            Flowing Conversations</h2>
+          <p
+            class="font-opsans text-[1.125rem] mb:text-[0.875rem] leading-7 mb:leading-5 text-grayish_blue mb:text-center">
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads
+            have just-in-time loading for a more natural flow.</p>
+        </div>
+        <img src="/images/illustration-flowing-conversation.svg" alt="illustration-grow-together"
+          class="w-full max-w-[25rem] object-cover mb:w-full">
+      </div>
+      <div
+        class="flex flex-nowrap  pr-8  pl-[7.5rem] py-14 mb:gap-6 mb:py-8 mb:px-6 items-center justify-between shadow-gray-300 shadow-md mb:flex-col-reverse">
+        <div class="w-full max-w-[31rem] mb:mt-6">
+          <h2
+            class="font-popin font-semibold text-[1.75rem] mb:text-[1.25rem] leading-[2.5rem] mb:leading-8 text-very_dark_cyan mb:text-center mb:mb-4">
+            Your Users</h2>
+          <p
+            class="font-opsans text-[1.125rem] mb:text-[0.875rem] leading-7 mb:leading-5 text-grayish_blue mb:text-center">
+            It takes no time at all to integrate Huddle with your app's authentication solution.
+            This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+        <img src="/images/illustration-your-users.svg" alt="illustration-grow-together"
+          class="w-full max-w-[25rem] object-cover mb:w-full">
+      </div>
+    </section>
+    <section class="container max-w-[1440px] w-[90%] mx-auto">
+      <div
+        class="max-w-[800px] w-full mx-auto  shadow-gray-300 shadow-md rounded-md bg-white  py-[3.5rem] mb:py-10 translate-y-[50%]">
+        <h2
+          class=" text-center font-popin font-semibold text-[2rem] mb:text-[1.125rem] text-very_dark_cyan leading-[3.75rem] mb:leading-[2rem] mb-8 mb:mb-6">
+          Ready To Build Your
+          Community?</h2>
+        <a href="#"
+          class="text-white block mx-auto w-fit rounded-[1.75rem] bg-pink font-opsans text-[1.25rem] leading-8 font-bold mb:text-[0.625rem] mb:leading-4 px-[6.25rem] mb:px-[3rem] py-6 mb:py-3 hover:bg-opacity-50 cursor-pointer">
+          Get Started For Free</a>
+      </div>
+    </section>
+    <footer class="bg-very_dark_cyan">
+      <div
+        class="pt-36 pb-16 pr-20 mb:pr-4 pl-28 mb:pl-4 flex flex-nowrap items-stretch justify-between mb:justify-start gap-[8rem] mb:flex-wrap mb:gap-4">
+        <div class="mb:w-full">
+          <i class="block w-[9.5rem] h-6 bg-white"
+            style="mask: url(images/logo.svg) center / contain no-repeat; -webkit-mask: url(images/logo.svg) center / contain no-repeat"></i>
+          <ul class="w-full flex flex-col justify-center items-start gap-4 mt-8">
+            <li class="flex items-center justify-start gap-4">
+              <i class="block w-6 h-6 bg-white"
+                style="mask: url(images/icon-location.svg) center / contain no-repeat; -webkit-mask: url(images/icon-location.svg) center / contain no-repeat"></i>
+              <a href="#" class="font-opsans text-[0.875rem] leading-6 text-white" title="address">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua
+              </a>
+            </li>
+            <li class="flex items-center justify-start gap-4">
+              <i class="block w-6 h-6 bg-white"
+                style="mask: url(images/icon-phone.svg) center / contain no-repeat; -webkit-mask: url(images/icon-phone.svg) center / contain no-repeat"></i>
+              <a href="tel:1-543-123-4567" class="font-opsans text-[0.875rem] leading-6 text-white" title="phone">
+                +1-543-123-4567
+              </a>
+            </li>
+            <li class="flex items-center justify-start gap-4">
+              <i class="block w-6 h-6 bg-white"
+                style="mask: url(images/icon-email.svg) center / contain no-repeat; -webkit-mask: url(images/icon-email.svg) center / contain no-repeat"></i>
+              <a href="mailto:example@huddle.com" class="font-opsans text-[0.875rem] leading-6 text-white" title="mail">
+                example@huddle.com</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="mb:w-full flex flex-col justify-center items-start gap-4 ">
+          <li><a href="#" class="font-opsans text-[0.875rem] leading-6 text-white" title="About"> About Us</a></li>
+          <li><a href="#" class="font-opsans text-[0.875rem] leading-6 text-white" title="What we do"> What We Do</a>
+          </li>
+          <li><a href="#" class="font-opsans text-[0.875rem] leading-6 text-white" title="faq"> FAQ</a></li>
+        </ul>
+        <ul class="mb:w-full flex flex-col justify-center items-start gap-4 ">
+          <li><a href="#" class="font-opsans text-[0.875rem] leading-6 text-white" title="Career"> Career</a></li>
+          <li><a href="#" class="font-opsans text-[0.875rem] leading-6 text-white" title="blog"> Blog</a></li>
+          <li><a href="#" class="font-opsans text-[0.875rem] leading-6 text-white" title=" Contact"> Contact Us</a></li>
+        </ul>
+        <div class="mb:w-full mb:mt-8">
+          <ul class="flex gap-4 items-center justify-start mb:justify-center mb:items-center">
+            <li>
+              <a href="#" title="facebook">
+                <i class="block w-8 h-8 bg-white hover:bg-red-400 rounded-[50%]"
+                  style="mask:url(images/icon-facebook.svg) center / contain no-repeat; -webkit-mask:url(images/icon-facebook.svg) center / contain no-repeat"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="facebook">
+                <i class="block w-8 h-8 bg-white hover:bg-red-400 rounded-[50%]"
+                  style="mask:url(images/icon-twitter.svg) center / contain no-repeat; -webkit-mask:url(images/icon-twitter.svg) center / contain no-repeat"></i>
+              </a>
+            </li>
+          </ul>
+          <span class="block mt-[7rem] mb:mt-4 font-opsans text-[0.875rem] leading-6 text-white mb:text-center"> &copy;
+            Copyright 2018 Huddle.
+            All rights
+            reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/TranDanh1122">Trần Thành Danh</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
